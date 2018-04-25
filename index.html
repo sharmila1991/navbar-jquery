@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>NavBar</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="index.css">
+    <!--Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<div class="banner">
+			<div class="list">NavBar</div>
+		<div class="hideOnMin">
+			<div class="list">Home</div>
+			<a href="#" class="list">Link</a>
+			<div id="popup" class="list">Dropdown <img style="width:10px;height:10px;"src="drop-down-arrow.png">
+				<div class="popupcontainer">
+					 <div class="dropdownList">
+						<a href="#" class="list">Action</a>
+						<a href="#" class="list" style="border-bottom-style:solid;border-width:0.5px;border-color:grey;">Another Action</a> 
+						<a href="#" class="list">Something Else here</a>
+					</div> 
+				</div> 
+			</div>
+			<div class="list" style="color:white;">Disabled</div>
+		</div>
+		</div>
+		<div class="search">
+			<div class="list"><input type="text"  placeholder="  Search " style="height:30px;border-radius:5px;"></input></div>
+			<div class="list"><button style="height:30px;border-radius:5px;">Search</button></div>
+		</div>
+	</div>
+	
+	<div class="containerMin">
+		<div class="Nav">
+			<div class="list">NavBar</div>
+			<div id="expand" class="list"><button type="button"><img src="view-list.png" style="width:20px;height:20px;"></button></div>
+		</div>
+		<div class="dropDown">
+			<div class="list">Home</div>
+			<div class="list">Link</div>
+			<div id="popup1" class="list">Dropdown <img style="width:10px;height:10px;"src="drop-down-arrow.png">
+				<div class="popupcontainer1">
+					<a href="#" class="list">Action</a>
+					<a href="#" class="list" style="border-bottom-style:solid;border-width:0.5px;border-color:grey;">Another Action</a> 
+					<a href="#" class="list">Something Else here</a>
+				</div> 
+			</div>
+			<div class="list">Disabled</div>
+			<div class="search">
+				<div class="list"><input type="text"  placeholder="  Search " style="height:30px;border-radius:5px;"></input></div>
+				<div class="list"><button style="height:30px;border-radius:5px;">Search</button></div>
+			</div>
+		</div>
+	</div>
+<script src="jquery-3.3.1.min.js"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
